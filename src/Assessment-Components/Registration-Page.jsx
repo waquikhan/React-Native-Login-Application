@@ -7,6 +7,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import FaxIcon from '@mui/icons-material/Fax';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import { Link } from 'react-router-dom';
 
 const RegistrationPage1 = () => {
   const BtnColor = {
@@ -182,7 +183,11 @@ const RegistrationPage1 = () => {
         <p style={{color:"rgb(69, 239, 230)"}}> Terms & Conditions</p>
     </div>
     </div>
+
+      <Link to="/userlogin">
       <button style={BtnColor}>Register</button>
+      </Link>
+      
 
       <div className='d-flex mt-2 justify-content-center'>
         <p className='me-1 ' style={{ color: 'grey' }}>Already have an account?</p>
