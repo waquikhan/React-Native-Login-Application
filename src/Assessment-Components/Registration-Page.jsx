@@ -191,8 +191,8 @@ const RegistrationPage1 = () => {
 
       <div className='d-flex mt-2 justify-content-center'>
         <p className='me-1 ' style={{ color: 'grey' }}>Already have an account?</p>
-        <Link to="/userlogin">
-        <p style={{ color: "rgb(69, 239, 230)" }}>Sign In</p>
+        <Link to="/userlogin" style={{textDecoration:'none'}}>
+          <p style={{ color: "rgb(69, 239, 230)"}}>Sign In</p>
         </Link>
       </div>
     </Container>
