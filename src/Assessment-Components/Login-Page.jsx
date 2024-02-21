@@ -66,7 +66,10 @@ const LoginPage = () => {
       <Link to="/authenication" >
       <button style={BtnColor}>Login</button>
       </Link>
-      <p className='text-center' style={{ color: "rgb(69, 239, 230)", marginTop: '1rem' }}>Forgot Password</p>
+      <Link to="/register" style={{textDecoration:'none'}} className='text-center'>
+          <p style={{ color: "rgb(69, 239, 230)"}}>Sign-Up</p>
+        <p className='text-center' style={{ color: "rgb(69, 239, 230)", marginTop: '1rem' }}>Forgot Password</p>
+      </Link>
     </Container>
   );
 };
